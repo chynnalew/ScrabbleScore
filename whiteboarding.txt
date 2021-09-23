@@ -1,0 +1,46 @@
+
+
+
+Scrabble scoreing:
+
+A, E, I, O, U, L, N, R, S, T       1
+D, G                               2
+B, C, M, P                         3
+F, H, V, W, Y                      4
+K                                  5
+J, X                               8
+Q, Z                               10
+
+dictionary approach:
+  put scores in dictionary
+  score list
+  looping through dictionary and word DOUBLE LOOP ACTION
+  char [] = word.tochar()
+  foreach (string char in char Array)
+
+    foreach (string letter in scrabbledictionary.KEYs)
+    if letter.contains(Char)
+
+      
+
+
+input: string word
+output int score
+
+example: "Zebra"
+  expected output: 16 points
+
+example: "Queen"
+  expted output: 14 points
+
+methods
+  findScore
+
+  as we foreach the word array:
+
+  public static Dictionary<string, int> scrabbleScores = new Dictionary<string, int>();
+  
+  int score = 0;
+  score += scrabbleScores[letter]);
+  return score;
+  
